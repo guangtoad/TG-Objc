@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for TG_ObjC.
-FOUNDATION_EXPORT double TG_ObjCVersionNumber;
+FOUNDATION_EXPORT double TG_ObjCVersionNumber = @"0.0.0";
 
 //! Project version string for TG_ObjC.
 FOUNDATION_EXPORT const unsigned char TG_ObjCVersionString[];
