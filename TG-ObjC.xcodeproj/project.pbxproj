@@ -1,0 +1,1102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		536AC232224390CF00DECE05 /* TG_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC224224390CF00DECE05 /* TG_ObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536AC266224391BA00DECE05 /* TGString.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC23C224391B900DECE05 /* TGString.h */; };
+		536AC267224391BA00DECE05 /* NSString+TGExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC23E224391B900DECE05 /* NSString+TGExtension.h */; };
+		536AC268224391BA00DECE05 /* NSString+TGEncrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC23F224391B900DECE05 /* NSString+TGEncrypt.h */; };
+		536AC269224391BA00DECE05 /* NSString+TGRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC240224391B900DECE05 /* NSString+TGRegex.h */; };
+		536AC26A224391BA00DECE05 /* NSString+TGEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC241224391B900DECE05 /* NSString+TGEncrypt.m */; };
+		536AC26B224391BA00DECE05 /* NSString+TGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC242224391B900DECE05 /* NSString+TGExtension.m */; };
+		536AC26C224391BA00DECE05 /* NSString+TGRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC243224391B900DECE05 /* NSString+TGRegex.m */; };
+		536AC26D224391BA00DECE05 /* TGString.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC244224391B900DECE05 /* TGString.m */; };
+		536AC26E224391BA00DECE05 /* TGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC245224391B900DECE05 /* TGMacros.h */; };
+		536AC26F224391BA00DECE05 /* NSObject+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC248224391B900DECE05 /* NSObject+TG.m */; };
+		536AC270224391BA00DECE05 /* NSObject+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC249224391B900DECE05 /* NSObject+TG.h */; };
+		536AC271224391BA00DECE05 /* TGObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC24A224391B900DECE05 /* TGObject.h */; };
+		536AC272224391BA00DECE05 /* TGObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC24B224391B900DECE05 /* TGObject.m */; };
+		536AC273224391BA00DECE05 /* TGLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC24C224391B900DECE05 /* TGLib.h */; };
+		536AC274224391BA00DECE05 /* TGMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC24D224391B900DECE05 /* TGMath.h */; };
+		536AC275224391BA00DECE05 /* TGData.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC24F224391B900DECE05 /* TGData.m */; };
+		536AC276224391BA00DECE05 /* NSData+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC251224391BA00DECE05 /* NSData+TG.m */; };
+		536AC277224391BA00DECE05 /* NSData+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC252224391BA00DECE05 /* NSData+TG.h */; };
+		536AC278224391BA00DECE05 /* TGData.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC253224391BA00DECE05 /* TGData.h */; };
+		536AC279224391BA00DECE05 /* NSTimer+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC256224391BA00DECE05 /* NSTimer+TG.h */; };
+		536AC27A224391BA00DECE05 /* NSTimer+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC257224391BA00DECE05 /* NSTimer+TG.m */; };
+		536AC27B224391BA00DECE05 /* TGTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC258224391BA00DECE05 /* TGTimer.m */; };
+		536AC27C224391BA00DECE05 /* TGTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC259224391BA00DECE05 /* TGTimer.h */; };
+		536AC27D224391BA00DECE05 /* TGFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC25A224391BA00DECE05 /* TGFoundation.h */; };
+		536AC27E224391BA00DECE05 /* TGDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC25C224391BA00DECE05 /* TGDictionary.h */; };
+		536AC27F224391BA00DECE05 /* NSDictionary+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC25E224391BA00DECE05 /* NSDictionary+TG.h */; };
+		536AC280224391BA00DECE05 /* NSDictionary+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC25F224391BA00DECE05 /* NSDictionary+TG.m */; };
+		536AC281224391BA00DECE05 /* TGDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC260224391BA00DECE05 /* TGDictionary.m */; };
+		536AC282224391BA00DECE05 /* TGLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC261224391BA00DECE05 /* TGLib.m */; };
+		536AC283224391BA00DECE05 /* TGHttp.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC263224391BA00DECE05 /* TGHttp.m */; };
+		536AC284224391BA00DECE05 /* TGHttp.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC264224391BA00DECE05 /* TGHttp.h */; };
+		536AC285224391BA00DECE05 /* TGHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC265224391BA00DECE05 /* TGHelper.h */; };
+		536AC2FE224391C000DECE05 /* UIImageView+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC28F224391C000DECE05 /* UIImageView+TG.h */; };
+		536AC2FF224391C000DECE05 /* UIImageView+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC290224391C000DECE05 /* UIImageView+TG.m */; };
+		536AC300224391C000DECE05 /* TGImageVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC291224391C000DECE05 /* TGImageVIew.m */; };
+		536AC301224391C000DECE05 /* TGImageVIew.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC292224391C000DECE05 /* TGImageVIew.h */; };
+		536AC302224391C000DECE05 /* TGTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC294224391C000DECE05 /* TGTableView.m */; };
+		536AC303224391C000DECE05 /* TGTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC295224391C000DECE05 /* TGTableView.h */; };
+		536AC304224391C000DECE05 /* TGTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC297224391C000DECE05 /* TGTableViewController.h */; };
+		536AC305224391C000DECE05 /* UITableViewController+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC299224391C000DECE05 /* UITableViewController+TG.h */; };
+		536AC306224391C000DECE05 /* UITableViewController+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC29A224391C000DECE05 /* UITableViewController+TG.m */; };
+		536AC307224391C000DECE05 /* TGTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC29B224391C000DECE05 /* TGTableViewController.m */; };
+		536AC308224391C000DECE05 /* TGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC29D224391C000DECE05 /* TGTabBarController.m */; };
+		536AC309224391C000DECE05 /* TGTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC29E224391C000DECE05 /* TGTabBarController.h */; };
+		536AC310224391C000DECE05 /* UIButton+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2AA224391C000DECE05 /* UIButton+TG.m */; };
+		536AC311224391C000DECE05 /* UIButton+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2AB224391C000DECE05 /* UIButton+TG.h */; };
+		536AC312224391C000DECE05 /* TGButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2AC224391C000DECE05 /* TGButton.h */; };
+		536AC313224391C000DECE05 /* TGButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2AD224391C000DECE05 /* TGButton.m */; };
+		536AC314224391C000DECE05 /* UIAlertController+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2B0224391C000DECE05 /* UIAlertController+TG.h */; };
+		536AC315224391C000DECE05 /* UIAlertController+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2B1224391C000DECE05 /* UIAlertController+TG.m */; };
+		536AC316224391C000DECE05 /* TGAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2B2224391C000DECE05 /* TGAlertController.h */; };
+		536AC317224391C000DECE05 /* TGAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2B3224391C000DECE05 /* TGAlertController.m */; };
+		536AC318224391C000DECE05 /* TGKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2B4224391C000DECE05 /* TGKit.h */; };
+		536AC319224391C000DECE05 /* TGTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2B6224391C000DECE05 /* TGTextField.h */; };
+		536AC31A224391C000DECE05 /* UITextField+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2B8224391C000DECE05 /* UITextField+TG.h */; };
+		536AC31B224391C000DECE05 /* UITextField+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2B9224391C000DECE05 /* UITextField+TG.m */; };
+		536AC31C224391C000DECE05 /* TGTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2BA224391C000DECE05 /* TGTextField.m */; };
+		536AC31D224391C000DECE05 /* UIScrollView+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2BD224391C000DECE05 /* UIScrollView+TG.h */; };
+		536AC31E224391C000DECE05 /* UIScrollView+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2BE224391C000DECE05 /* UIScrollView+TG.m */; };
+		536AC31F224391C000DECE05 /* TGScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2BF224391C000DECE05 /* TGScrollView.m */; };
+		536AC320224391C000DECE05 /* TGScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2C0224391C000DECE05 /* TGScrollView.h */; };
+		536AC321224391C000DECE05 /* TGTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2C2224391C000DECE05 /* TGTableViewCell.m */; };
+		536AC322224391C000DECE05 /* TGTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2C3224391C000DECE05 /* TGTableViewCell.h */; };
+		536AC323224391C000DECE05 /* TGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2C6224391C000DECE05 /* TGImage.m */; };
+		536AC324224391C000DECE05 /* UIimage+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2C8224391C000DECE05 /* UIimage+TG.h */; };
+		536AC325224391C000DECE05 /* UIimage+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2C9224391C000DECE05 /* UIimage+TG.m */; };
+		536AC326224391C000DECE05 /* TGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2CA224391C000DECE05 /* TGImage.h */; };
+		536AC327224391C000DECE05 /* TGCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2CC224391C000DECE05 /* TGCheckBox.h */; };
+		536AC328224391C000DECE05 /* TGCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2CD224391C000DECE05 /* TGCheckBox.m */; };
+		536AC329224391C000DECE05 /* TGUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2CE224391C000DECE05 /* TGUIKit.h */; };
+		536AC32A224391C000DECE05 /* TGColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2D0224391C000DECE05 /* TGColor.h */; };
+		536AC32B224391C000DECE05 /* UIColor+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2D2224391C000DECE05 /* UIColor+TG.m */; };
+		536AC32C224391C000DECE05 /* UIColor+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2D3224391C000DECE05 /* UIColor+TG.h */; };
+		536AC32D224391C000DECE05 /* TGColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2D4224391C000DECE05 /* TGColor.m */; };
+		536AC32E224391C000DECE05 /* UIResponder+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2D7224391C000DECE05 /* UIResponder+TG.m */; };
+		536AC32F224391C000DECE05 /* UIResponder+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2D8224391C000DECE05 /* UIResponder+TG.h */; };
+		536AC330224391C000DECE05 /* TGResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2D9224391C000DECE05 /* TGResponder.h */; };
+		536AC331224391C000DECE05 /* TGResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2DA224391C000DECE05 /* TGResponder.m */; };
+		536AC332224391C000DECE05 /* TGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2DC224391C000DECE05 /* TGNavigationController.m */; };
+		536AC333224391C000DECE05 /* TGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2DD224391C000DECE05 /* TGNavigationController.h */; };
+		536AC334224391C000DECE05 /* TGTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2DF224391C000DECE05 /* TGTabBar.h */; };
+		536AC335224391C000DECE05 /* TGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2E0224391C000DECE05 /* TGTabBar.m */; };
+		536AC336224391C000DECE05 /* TGHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2E1224391C000DECE05 /* TGHeader.h */; };
+		536AC337224391C000DECE05 /* UIDevice+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2E3224391C000DECE05 /* UIDevice+TG.h */; };
+		536AC338224391C000DECE05 /* UIDevice+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2E4224391C000DECE05 /* UIDevice+TG.m */; };
+		536AC339224391C000DECE05 /* UIViewController+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2E7224391C000DECE05 /* UIViewController+TG.h */; };
+		536AC33A224391C000DECE05 /* UIViewController+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2E8224391C000DECE05 /* UIViewController+TG.m */; };
+		536AC33B224391C000DECE05 /* TGViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2E9224391C000DECE05 /* TGViewController.h */; };
+		536AC33C224391C000DECE05 /* TGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2EA224391C000DECE05 /* TGViewController.m */; };
+		536AC33D224391C000DECE05 /* UIApplication+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2EC224391C000DECE05 /* UIApplication+TG.m */; };
+		536AC33E224391C000DECE05 /* UIApplication+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2ED224391C000DECE05 /* UIApplication+TG.h */; };
+		536AC33F224391C000DECE05 /* TGNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2EF224391C000DECE05 /* TGNavigationBar.m */; };
+		536AC340224391C000DECE05 /* TGNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2F0224391C000DECE05 /* TGNavigationBar.h */; };
+		536AC341224391C000DECE05 /* UIView+TG.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2F3224391C000DECE05 /* UIView+TG.h */; };
+		536AC342224391C000DECE05 /* UIView+TG.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2F4224391C000DECE05 /* UIView+TG.m */; };
+		536AC343224391C000DECE05 /* TGView.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2F5224391C000DECE05 /* TGView.m */; };
+		536AC344224391C000DECE05 /* TGView.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2F6224391C000DECE05 /* TGView.h */; };
+		536AC345224391C000DECE05 /* TGAppCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 536AC2F8224391C000DECE05 /* TGAppCenter.h */; };
+		536AC346224391C000DECE05 /* TGAppCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 536AC2F9224391C000DECE05 /* TGAppCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		536AC222224390CF00DECE05 /* TG_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TG_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		536AC224224390CF00DECE05 /* TG_ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TG_ObjC.h; sourceTree = "<group>"; };
+		536AC225224390CF00DECE05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		536AC23C224391B900DECE05 /* TGString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGString.h; sourceTree = "<group>"; };
+		536AC23E224391B900DECE05 /* NSString+TGExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TGExtension.h"; sourceTree = "<group>"; };
+		536AC23F224391B900DECE05 /* NSString+TGEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TGEncrypt.h"; sourceTree = "<group>"; };
+		536AC240224391B900DECE05 /* NSString+TGRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TGRegex.h"; sourceTree = "<group>"; };
+		536AC241224391B900DECE05 /* NSString+TGEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TGEncrypt.m"; sourceTree = "<group>"; };
+		536AC242224391B900DECE05 /* NSString+TGExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TGExtension.m"; sourceTree = "<group>"; };
+		536AC243224391B900DECE05 /* NSString+TGRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TGRegex.m"; sourceTree = "<group>"; };
+		536AC244224391B900DECE05 /* TGString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGString.m; sourceTree = "<group>"; };
+		536AC245224391B900DECE05 /* TGMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMacros.h; sourceTree = "<group>"; };
+		536AC248224391B900DECE05 /* NSObject+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TG.m"; sourceTree = "<group>"; };
+		536AC249224391B900DECE05 /* NSObject+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TG.h"; sourceTree = "<group>"; };
+		536AC24A224391B900DECE05 /* TGObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGObject.h; sourceTree = "<group>"; };
+		536AC24B224391B900DECE05 /* TGObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGObject.m; sourceTree = "<group>"; };
+		536AC24C224391B900DECE05 /* TGLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGLib.h; sourceTree = "<group>"; };
+		536AC24D224391B900DECE05 /* TGMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGMath.h; sourceTree = "<group>"; };
+		536AC24F224391B900DECE05 /* TGData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGData.m; sourceTree = "<group>"; };
+		536AC251224391BA00DECE05 /* NSData+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+TG.m"; sourceTree = "<group>"; };
+		536AC252224391BA00DECE05 /* NSData+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+TG.h"; sourceTree = "<group>"; };
+		536AC253224391BA00DECE05 /* TGData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGData.h; sourceTree = "<group>"; };
+		536AC256224391BA00DECE05 /* NSTimer+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TG.h"; sourceTree = "<group>"; };
+		536AC257224391BA00DECE05 /* NSTimer+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TG.m"; sourceTree = "<group>"; };
+		536AC258224391BA00DECE05 /* TGTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTimer.m; sourceTree = "<group>"; };
+		536AC259224391BA00DECE05 /* TGTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTimer.h; sourceTree = "<group>"; };
+		536AC25A224391BA00DECE05 /* TGFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGFoundation.h; sourceTree = "<group>"; };
+		536AC25C224391BA00DECE05 /* TGDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGDictionary.h; sourceTree = "<group>"; };
+		536AC25E224391BA00DECE05 /* NSDictionary+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+TG.h"; sourceTree = "<group>"; };
+		536AC25F224391BA00DECE05 /* NSDictionary+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+TG.m"; sourceTree = "<group>"; };
+		536AC260224391BA00DECE05 /* TGDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGDictionary.m; sourceTree = "<group>"; };
+		536AC261224391BA00DECE05 /* TGLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGLib.m; sourceTree = "<group>"; };
+		536AC263224391BA00DECE05 /* TGHttp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGHttp.m; sourceTree = "<group>"; };
+		536AC264224391BA00DECE05 /* TGHttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHttp.h; sourceTree = "<group>"; };
+		536AC265224391BA00DECE05 /* TGHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHelper.h; sourceTree = "<group>"; };
+		536AC28F224391C000DECE05 /* UIImageView+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+TG.h"; sourceTree = "<group>"; };
+		536AC290224391C000DECE05 /* UIImageView+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+TG.m"; sourceTree = "<group>"; };
+		536AC291224391C000DECE05 /* TGImageVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImageVIew.m; sourceTree = "<group>"; };
+		536AC292224391C000DECE05 /* TGImageVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImageVIew.h; sourceTree = "<group>"; };
+		536AC294224391C000DECE05 /* TGTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTableView.m; sourceTree = "<group>"; };
+		536AC295224391C000DECE05 /* TGTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTableView.h; sourceTree = "<group>"; };
+		536AC297224391C000DECE05 /* TGTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTableViewController.h; sourceTree = "<group>"; };
+		536AC299224391C000DECE05 /* UITableViewController+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+TG.h"; sourceTree = "<group>"; };
+		536AC29A224391C000DECE05 /* UITableViewController+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+TG.m"; sourceTree = "<group>"; };
+		536AC29B224391C000DECE05 /* TGTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTableViewController.m; sourceTree = "<group>"; };
+		536AC29D224391C000DECE05 /* TGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTabBarController.m; sourceTree = "<group>"; };
+		536AC29E224391C000DECE05 /* TGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTabBarController.h; sourceTree = "<group>"; };
+		536AC2AA224391C000DECE05 /* UIButton+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TG.m"; sourceTree = "<group>"; };
+		536AC2AB224391C000DECE05 /* UIButton+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TG.h"; sourceTree = "<group>"; };
+		536AC2AC224391C000DECE05 /* TGButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGButton.h; sourceTree = "<group>"; };
+		536AC2AD224391C000DECE05 /* TGButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGButton.m; sourceTree = "<group>"; };
+		536AC2B0224391C000DECE05 /* UIAlertController+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+TG.h"; sourceTree = "<group>"; };
+		536AC2B1224391C000DECE05 /* UIAlertController+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+TG.m"; sourceTree = "<group>"; };
+		536AC2B2224391C000DECE05 /* TGAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAlertController.h; sourceTree = "<group>"; };
+		536AC2B3224391C000DECE05 /* TGAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAlertController.m; sourceTree = "<group>"; };
+		536AC2B4224391C000DECE05 /* TGKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGKit.h; sourceTree = "<group>"; };
+		536AC2B6224391C000DECE05 /* TGTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTextField.h; sourceTree = "<group>"; };
+		536AC2B8224391C000DECE05 /* UITextField+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+TG.h"; sourceTree = "<group>"; };
+		536AC2B9224391C000DECE05 /* UITextField+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+TG.m"; sourceTree = "<group>"; };
+		536AC2BA224391C000DECE05 /* TGTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTextField.m; sourceTree = "<group>"; };
+		536AC2BD224391C000DECE05 /* UIScrollView+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TG.h"; sourceTree = "<group>"; };
+		536AC2BE224391C000DECE05 /* UIScrollView+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TG.m"; sourceTree = "<group>"; };
+		536AC2BF224391C000DECE05 /* TGScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGScrollView.m; sourceTree = "<group>"; };
+		536AC2C0224391C000DECE05 /* TGScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGScrollView.h; sourceTree = "<group>"; };
+		536AC2C2224391C000DECE05 /* TGTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTableViewCell.m; sourceTree = "<group>"; };
+		536AC2C3224391C000DECE05 /* TGTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTableViewCell.h; sourceTree = "<group>"; };
+		536AC2C6224391C000DECE05 /* TGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGImage.m; sourceTree = "<group>"; };
+		536AC2C8224391C000DECE05 /* UIimage+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIimage+TG.h"; sourceTree = "<group>"; };
+		536AC2C9224391C000DECE05 /* UIimage+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIimage+TG.m"; sourceTree = "<group>"; };
+		536AC2CA224391C000DECE05 /* TGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGImage.h; sourceTree = "<group>"; };
+		536AC2CC224391C000DECE05 /* TGCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCheckBox.h; sourceTree = "<group>"; };
+		536AC2CD224391C000DECE05 /* TGCheckBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCheckBox.m; sourceTree = "<group>"; };
+		536AC2CE224391C000DECE05 /* TGUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGUIKit.h; sourceTree = "<group>"; };
+		536AC2D0224391C000DECE05 /* TGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGColor.h; sourceTree = "<group>"; };
+		536AC2D2224391C000DECE05 /* UIColor+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TG.m"; sourceTree = "<group>"; };
+		536AC2D3224391C000DECE05 /* UIColor+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+TG.h"; sourceTree = "<group>"; };
+		536AC2D4224391C000DECE05 /* TGColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGColor.m; sourceTree = "<group>"; };
+		536AC2D7224391C000DECE05 /* UIResponder+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+TG.m"; sourceTree = "<group>"; };
+		536AC2D8224391C000DECE05 /* UIResponder+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+TG.h"; sourceTree = "<group>"; };
+		536AC2D9224391C000DECE05 /* TGResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGResponder.h; sourceTree = "<group>"; };
+		536AC2DA224391C000DECE05 /* TGResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGResponder.m; sourceTree = "<group>"; };
+		536AC2DC224391C000DECE05 /* TGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGNavigationController.m; sourceTree = "<group>"; };
+		536AC2DD224391C000DECE05 /* TGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGNavigationController.h; sourceTree = "<group>"; };
+		536AC2DF224391C000DECE05 /* TGTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTabBar.h; sourceTree = "<group>"; };
+		536AC2E0224391C000DECE05 /* TGTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTabBar.m; sourceTree = "<group>"; };
+		536AC2E1224391C000DECE05 /* TGHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGHeader.h; sourceTree = "<group>"; };
+		536AC2E3224391C000DECE05 /* UIDevice+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+TG.h"; sourceTree = "<group>"; };
+		536AC2E4224391C000DECE05 /* UIDevice+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+TG.m"; sourceTree = "<group>"; };
+		536AC2E7224391C000DECE05 /* UIViewController+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TG.h"; sourceTree = "<group>"; };
+		536AC2E8224391C000DECE05 /* UIViewController+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TG.m"; sourceTree = "<group>"; };
+		536AC2E9224391C000DECE05 /* TGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGViewController.h; sourceTree = "<group>"; };
+		536AC2EA224391C000DECE05 /* TGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGViewController.m; sourceTree = "<group>"; };
+		536AC2EC224391C000DECE05 /* UIApplication+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+TG.m"; sourceTree = "<group>"; };
+		536AC2ED224391C000DECE05 /* UIApplication+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+TG.h"; sourceTree = "<group>"; };
+		536AC2EF224391C000DECE05 /* TGNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGNavigationBar.m; sourceTree = "<group>"; };
+		536AC2F0224391C000DECE05 /* TGNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGNavigationBar.h; sourceTree = "<group>"; };
+		536AC2F3224391C000DECE05 /* UIView+TG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TG.h"; sourceTree = "<group>"; };
+		536AC2F4224391C000DECE05 /* UIView+TG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TG.m"; sourceTree = "<group>"; };
+		536AC2F5224391C000DECE05 /* TGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGView.m; sourceTree = "<group>"; };
+		536AC2F6224391C000DECE05 /* TGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGView.h; sourceTree = "<group>"; };
+		536AC2F8224391C000DECE05 /* TGAppCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAppCenter.h; sourceTree = "<group>"; };
+		536AC2F9224391C000DECE05 /* TGAppCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAppCenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		536AC21F224390CF00DECE05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		536AC1DF2243901A00DECE05 = {
+			isa = PBXGroup;
+			children = (
+				536AC223224390CF00DECE05 /* TG-ObjC */,
+				536AC1E92243901A00DECE05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		536AC1E92243901A00DECE05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				536AC222224390CF00DECE05 /* TG_ObjC.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		536AC223224390CF00DECE05 /* TG-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				536AC239224391B200DECE05 /* TG-ObjC */,
+				536AC224224390CF00DECE05 /* TG_ObjC.h */,
+				536AC225224390CF00DECE05 /* Info.plist */,
+			);
+			path = "TG-ObjC";
+			sourceTree = "<group>";
+		};
+		536AC239224391B200DECE05 /* TG-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				536AC286224391C000DECE05 /* TGKit */,
+				536AC23A224391B900DECE05 /* TGFoundation */,
+			);
+			path = "TG-ObjC";
+			sourceTree = "<group>";
+		};
+		536AC23A224391B900DECE05 /* TGFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				536AC23B224391B900DECE05 /* TGString */,
+				536AC245224391B900DECE05 /* TGMacros.h */,
+				536AC246224391B900DECE05 /* TGObject */,
+				536AC24C224391B900DECE05 /* TGLib.h */,
+				536AC24D224391B900DECE05 /* TGMath.h */,
+				536AC24E224391B900DECE05 /* TGData */,
+				536AC254224391BA00DECE05 /* TGTimer */,
+				536AC25A224391BA00DECE05 /* TGFoundation.h */,
+				536AC25B224391BA00DECE05 /* TGDictionary */,
+				536AC261224391BA00DECE05 /* TGLib.m */,
+				536AC262224391BA00DECE05 /* TGHttp */,
+				536AC265224391BA00DECE05 /* TGHelper.h */,
+			);
+			path = TGFoundation;
+			sourceTree = "<group>";
+		};
+		536AC23B224391B900DECE05 /* TGString */ = {
+			isa = PBXGroup;
+			children = (
+				536AC23C224391B900DECE05 /* TGString.h */,
+				536AC23D224391B900DECE05 /* Extension */,
+				536AC244224391B900DECE05 /* TGString.m */,
+			);
+			path = TGString;
+			sourceTree = "<group>";
+		};
+		536AC23D224391B900DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC23E224391B900DECE05 /* NSString+TGExtension.h */,
+				536AC23F224391B900DECE05 /* NSString+TGEncrypt.h */,
+				536AC240224391B900DECE05 /* NSString+TGRegex.h */,
+				536AC241224391B900DECE05 /* NSString+TGEncrypt.m */,
+				536AC242224391B900DECE05 /* NSString+TGExtension.m */,
+				536AC243224391B900DECE05 /* NSString+TGRegex.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC246224391B900DECE05 /* TGObject */ = {
+			isa = PBXGroup;
+			children = (
+				536AC247224391B900DECE05 /* Extension */,
+				536AC24A224391B900DECE05 /* TGObject.h */,
+				536AC24B224391B900DECE05 /* TGObject.m */,
+			);
+			path = TGObject;
+			sourceTree = "<group>";
+		};
+		536AC247224391B900DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC248224391B900DECE05 /* NSObject+TG.m */,
+				536AC249224391B900DECE05 /* NSObject+TG.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC24E224391B900DECE05 /* TGData */ = {
+			isa = PBXGroup;
+			children = (
+				536AC24F224391B900DECE05 /* TGData.m */,
+				536AC250224391BA00DECE05 /* Extension */,
+				536AC253224391BA00DECE05 /* TGData.h */,
+			);
+			path = TGData;
+			sourceTree = "<group>";
+		};
+		536AC250224391BA00DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC251224391BA00DECE05 /* NSData+TG.m */,
+				536AC252224391BA00DECE05 /* NSData+TG.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC254224391BA00DECE05 /* TGTimer */ = {
+			isa = PBXGroup;
+			children = (
+				536AC255224391BA00DECE05 /* Extension */,
+				536AC258224391BA00DECE05 /* TGTimer.m */,
+				536AC259224391BA00DECE05 /* TGTimer.h */,
+			);
+			path = TGTimer;
+			sourceTree = "<group>";
+		};
+		536AC255224391BA00DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC256224391BA00DECE05 /* NSTimer+TG.h */,
+				536AC257224391BA00DECE05 /* NSTimer+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC25B224391BA00DECE05 /* TGDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				536AC25C224391BA00DECE05 /* TGDictionary.h */,
+				536AC25D224391BA00DECE05 /* Extension */,
+				536AC260224391BA00DECE05 /* TGDictionary.m */,
+			);
+			path = TGDictionary;
+			sourceTree = "<group>";
+		};
+		536AC25D224391BA00DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC25E224391BA00DECE05 /* NSDictionary+TG.h */,
+				536AC25F224391BA00DECE05 /* NSDictionary+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC262224391BA00DECE05 /* TGHttp */ = {
+			isa = PBXGroup;
+			children = (
+				536AC263224391BA00DECE05 /* TGHttp.m */,
+				536AC264224391BA00DECE05 /* TGHttp.h */,
+			);
+			path = TGHttp;
+			sourceTree = "<group>";
+		};
+		536AC286224391C000DECE05 /* TGKit */ = {
+			isa = PBXGroup;
+			children = (
+				536AC28D224391C000DECE05 /* TGImageVIew */,
+				536AC293224391C000DECE05 /* TGTableView */,
+				536AC296224391C000DECE05 /* TGTableViewController */,
+				536AC29C224391C000DECE05 /* TGTabBarController */,
+				536AC2A8224391C000DECE05 /* TGButton */,
+				536AC2AE224391C000DECE05 /* TGAlertController */,
+				536AC2B4224391C000DECE05 /* TGKit.h */,
+				536AC2B5224391C000DECE05 /* TGTextField */,
+				536AC2BB224391C000DECE05 /* TGScrollView */,
+				536AC2C1224391C000DECE05 /* TGTableViewCell */,
+				536AC2C4224391C000DECE05 /* UIDevice */,
+				536AC2C5224391C000DECE05 /* TGImage */,
+				536AC2CB224391C000DECE05 /* TGCheckBox */,
+				536AC2CE224391C000DECE05 /* TGUIKit.h */,
+				536AC2CF224391C000DECE05 /* TGColor */,
+				536AC2D5224391C000DECE05 /* TGResponder */,
+				536AC2DB224391C000DECE05 /* TGNavigationController */,
+				536AC2DE224391C000DECE05 /* TGTabBar */,
+				536AC2E1224391C000DECE05 /* TGHeader.h */,
+				536AC2E2224391C000DECE05 /* Device */,
+				536AC2E5224391C000DECE05 /* TGViewController */,
+				536AC2EB224391C000DECE05 /* Application */,
+				536AC2EE224391C000DECE05 /* TGNavigationBar */,
+				536AC2F1224391C000DECE05 /* TGView */,
+				536AC2F7224391C000DECE05 /* TGAppCenter */,
+			);
+			path = TGKit;
+			sourceTree = "<group>";
+		};
+		536AC28D224391C000DECE05 /* TGImageVIew */ = {
+			isa = PBXGroup;
+			children = (
+				536AC28E224391C000DECE05 /* Extension */,
+				536AC291224391C000DECE05 /* TGImageVIew.m */,
+				536AC292224391C000DECE05 /* TGImageVIew.h */,
+			);
+			path = TGImageVIew;
+			sourceTree = "<group>";
+		};
+		536AC28E224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC28F224391C000DECE05 /* UIImageView+TG.h */,
+				536AC290224391C000DECE05 /* UIImageView+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC293224391C000DECE05 /* TGTableView */ = {
+			isa = PBXGroup;
+			children = (
+				536AC294224391C000DECE05 /* TGTableView.m */,
+				536AC295224391C000DECE05 /* TGTableView.h */,
+			);
+			path = TGTableView;
+			sourceTree = "<group>";
+		};
+		536AC296224391C000DECE05 /* TGTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				536AC297224391C000DECE05 /* TGTableViewController.h */,
+				536AC298224391C000DECE05 /* Extension */,
+				536AC29B224391C000DECE05 /* TGTableViewController.m */,
+			);
+			path = TGTableViewController;
+			sourceTree = "<group>";
+		};
+		536AC298224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC299224391C000DECE05 /* UITableViewController+TG.h */,
+				536AC29A224391C000DECE05 /* UITableViewController+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC29C224391C000DECE05 /* TGTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				536AC29D224391C000DECE05 /* TGTabBarController.m */,
+				536AC29E224391C000DECE05 /* TGTabBarController.h */,
+			);
+			path = TGTabBarController;
+			sourceTree = "<group>";
+		};
+		536AC2A8224391C000DECE05 /* TGButton */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2A9224391C000DECE05 /* Extension */,
+				536AC2AC224391C000DECE05 /* TGButton.h */,
+				536AC2AD224391C000DECE05 /* TGButton.m */,
+			);
+			path = TGButton;
+			sourceTree = "<group>";
+		};
+		536AC2A9224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2AA224391C000DECE05 /* UIButton+TG.m */,
+				536AC2AB224391C000DECE05 /* UIButton+TG.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC2AE224391C000DECE05 /* TGAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2AF224391C000DECE05 /* Extension */,
+				536AC2B2224391C000DECE05 /* TGAlertController.h */,
+				536AC2B3224391C000DECE05 /* TGAlertController.m */,
+			);
+			path = TGAlertController;
+			sourceTree = "<group>";
+		};
+		536AC2AF224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2B0224391C000DECE05 /* UIAlertController+TG.h */,
+				536AC2B1224391C000DECE05 /* UIAlertController+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC2B5224391C000DECE05 /* TGTextField */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2B6224391C000DECE05 /* TGTextField.h */,
+				536AC2B7224391C000DECE05 /* Extension */,
+				536AC2BA224391C000DECE05 /* TGTextField.m */,
+			);
+			path = TGTextField;
+			sourceTree = "<group>";
+		};
+		536AC2B7224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2B8224391C000DECE05 /* UITextField+TG.h */,
+				536AC2B9224391C000DECE05 /* UITextField+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC2BB224391C000DECE05 /* TGScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2BC224391C000DECE05 /* Extension */,
+				536AC2BF224391C000DECE05 /* TGScrollView.m */,
+				536AC2C0224391C000DECE05 /* TGScrollView.h */,
+			);
+			path = TGScrollView;
+			sourceTree = "<group>";
+		};
+		536AC2BC224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2BD224391C000DECE05 /* UIScrollView+TG.h */,
+				536AC2BE224391C000DECE05 /* UIScrollView+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC2C1224391C000DECE05 /* TGTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2C2224391C000DECE05 /* TGTableViewCell.m */,
+				536AC2C3224391C000DECE05 /* TGTableViewCell.h */,
+			);
+			path = TGTableViewCell;
+			sourceTree = "<group>";
+		};
+		536AC2C4224391C000DECE05 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		536AC2C5224391C000DECE05 /* TGImage */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2C6224391C000DECE05 /* TGImage.m */,
+				536AC2C7224391C000DECE05 /* Extension */,
+				536AC2CA224391C000DECE05 /* TGImage.h */,
+			);
+			path = TGImage;
+			sourceTree = "<group>";
+		};
+		536AC2C7224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2C8224391C000DECE05 /* UIimage+TG.h */,
+				536AC2C9224391C000DECE05 /* UIimage+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC2CB224391C000DECE05 /* TGCheckBox */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2CC224391C000DECE05 /* TGCheckBox.h */,
+				536AC2CD224391C000DECE05 /* TGCheckBox.m */,
+			);
+			path = TGCheckBox;
+			sourceTree = "<group>";
+		};
+		536AC2CF224391C000DECE05 /* TGColor */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2D0224391C000DECE05 /* TGColor.h */,
+				536AC2D1224391C000DECE05 /* Extension */,
+				536AC2D4224391C000DECE05 /* TGColor.m */,
+			);
+			path = TGColor;
+			sourceTree = "<group>";
+		};
+		536AC2D1224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2D2224391C000DECE05 /* UIColor+TG.m */,
+				536AC2D3224391C000DECE05 /* UIColor+TG.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC2D5224391C000DECE05 /* TGResponder */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2D6224391C000DECE05 /* Extension */,
+				536AC2D9224391C000DECE05 /* TGResponder.h */,
+				536AC2DA224391C000DECE05 /* TGResponder.m */,
+			);
+			path = TGResponder;
+			sourceTree = "<group>";
+		};
+		536AC2D6224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2D7224391C000DECE05 /* UIResponder+TG.m */,
+				536AC2D8224391C000DECE05 /* UIResponder+TG.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC2DB224391C000DECE05 /* TGNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2DC224391C000DECE05 /* TGNavigationController.m */,
+				536AC2DD224391C000DECE05 /* TGNavigationController.h */,
+			);
+			path = TGNavigationController;
+			sourceTree = "<group>";
+		};
+		536AC2DE224391C000DECE05 /* TGTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2DF224391C000DECE05 /* TGTabBar.h */,
+				536AC2E0224391C000DECE05 /* TGTabBar.m */,
+			);
+			path = TGTabBar;
+			sourceTree = "<group>";
+		};
+		536AC2E2224391C000DECE05 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2E3224391C000DECE05 /* UIDevice+TG.h */,
+				536AC2E4224391C000DECE05 /* UIDevice+TG.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		536AC2E5224391C000DECE05 /* TGViewController */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2E6224391C000DECE05 /* Extension */,
+				536AC2E9224391C000DECE05 /* TGViewController.h */,
+				536AC2EA224391C000DECE05 /* TGViewController.m */,
+			);
+			path = TGViewController;
+			sourceTree = "<group>";
+		};
+		536AC2E6224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2E7224391C000DECE05 /* UIViewController+TG.h */,
+				536AC2E8224391C000DECE05 /* UIViewController+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC2EB224391C000DECE05 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2EC224391C000DECE05 /* UIApplication+TG.m */,
+				536AC2ED224391C000DECE05 /* UIApplication+TG.h */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		536AC2EE224391C000DECE05 /* TGNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2EF224391C000DECE05 /* TGNavigationBar.m */,
+				536AC2F0224391C000DECE05 /* TGNavigationBar.h */,
+			);
+			path = TGNavigationBar;
+			sourceTree = "<group>";
+		};
+		536AC2F1224391C000DECE05 /* TGView */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2F2224391C000DECE05 /* Extension */,
+				536AC2F5224391C000DECE05 /* TGView.m */,
+				536AC2F6224391C000DECE05 /* TGView.h */,
+			);
+			path = TGView;
+			sourceTree = "<group>";
+		};
+		536AC2F2224391C000DECE05 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2F3224391C000DECE05 /* UIView+TG.h */,
+				536AC2F4224391C000DECE05 /* UIView+TG.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		536AC2F7224391C000DECE05 /* TGAppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				536AC2F8224391C000DECE05 /* TGAppCenter.h */,
+				536AC2F9224391C000DECE05 /* TGAppCenter.m */,
+			);
+			path = TGAppCenter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		536AC21D224390CF00DECE05 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536AC330224391C000DECE05 /* TGResponder.h in Headers */,
+				536AC32F224391C000DECE05 /* UIResponder+TG.h in Headers */,
+				536AC279224391BA00DECE05 /* NSTimer+TG.h in Headers */,
+				536AC303224391C000DECE05 /* TGTableView.h in Headers */,
+				536AC267224391BA00DECE05 /* NSString+TGExtension.h in Headers */,
+				536AC268224391BA00DECE05 /* NSString+TGEncrypt.h in Headers */,
+				536AC336224391C000DECE05 /* TGHeader.h in Headers */,
+				536AC314224391C000DECE05 /* UIAlertController+TG.h in Headers */,
+				536AC271224391BA00DECE05 /* TGObject.h in Headers */,
+				536AC270224391BA00DECE05 /* NSObject+TG.h in Headers */,
+				536AC329224391C000DECE05 /* TGUIKit.h in Headers */,
+				536AC301224391C000DECE05 /* TGImageVIew.h in Headers */,
+				536AC305224391C000DECE05 /* UITableViewController+TG.h in Headers */,
+				536AC2FE224391C000DECE05 /* UIImageView+TG.h in Headers */,
+				536AC309224391C000DECE05 /* TGTabBarController.h in Headers */,
+				536AC333224391C000DECE05 /* TGNavigationController.h in Headers */,
+				536AC27E224391BA00DECE05 /* TGDictionary.h in Headers */,
+				536AC31A224391C000DECE05 /* UITextField+TG.h in Headers */,
+				536AC269224391BA00DECE05 /* NSString+TGRegex.h in Headers */,
+				536AC340224391C000DECE05 /* TGNavigationBar.h in Headers */,
+				536AC337224391C000DECE05 /* UIDevice+TG.h in Headers */,
+				536AC324224391C000DECE05 /* UIimage+TG.h in Headers */,
+				536AC344224391C000DECE05 /* TGView.h in Headers */,
+				536AC326224391C000DECE05 /* TGImage.h in Headers */,
+				536AC304224391C000DECE05 /* TGTableViewController.h in Headers */,
+				536AC266224391BA00DECE05 /* TGString.h in Headers */,
+				536AC339224391C000DECE05 /* UIViewController+TG.h in Headers */,
+				536AC319224391C000DECE05 /* TGTextField.h in Headers */,
+				536AC341224391C000DECE05 /* UIView+TG.h in Headers */,
+				536AC27D224391BA00DECE05 /* TGFoundation.h in Headers */,
+				536AC33E224391C000DECE05 /* UIApplication+TG.h in Headers */,
+				536AC316224391C000DECE05 /* TGAlertController.h in Headers */,
+				536AC277224391BA00DECE05 /* NSData+TG.h in Headers */,
+				536AC273224391BA00DECE05 /* TGLib.h in Headers */,
+				536AC285224391BA00DECE05 /* TGHelper.h in Headers */,
+				536AC312224391C000DECE05 /* TGButton.h in Headers */,
+				536AC32A224391C000DECE05 /* TGColor.h in Headers */,
+				536AC334224391C000DECE05 /* TGTabBar.h in Headers */,
+				536AC345224391C000DECE05 /* TGAppCenter.h in Headers */,
+				536AC320224391C000DECE05 /* TGScrollView.h in Headers */,
+				536AC322224391C000DECE05 /* TGTableViewCell.h in Headers */,
+				536AC27C224391BA00DECE05 /* TGTimer.h in Headers */,
+				536AC32C224391C000DECE05 /* UIColor+TG.h in Headers */,
+				536AC27F224391BA00DECE05 /* NSDictionary+TG.h in Headers */,
+				536AC33B224391C000DECE05 /* TGViewController.h in Headers */,
+				536AC327224391C000DECE05 /* TGCheckBox.h in Headers */,
+				536AC26E224391BA00DECE05 /* TGMacros.h in Headers */,
+				536AC232224390CF00DECE05 /* TG_ObjC.h in Headers */,
+				536AC311224391C000DECE05 /* UIButton+TG.h in Headers */,
+				536AC31D224391C000DECE05 /* UIScrollView+TG.h in Headers */,
+				536AC274224391BA00DECE05 /* TGMath.h in Headers */,
+				536AC318224391C000DECE05 /* TGKit.h in Headers */,
+				536AC278224391BA00DECE05 /* TGData.h in Headers */,
+				536AC284224391BA00DECE05 /* TGHttp.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		536AC221224390CF00DECE05 /* TG-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536AC233224390CF00DECE05 /* Build configuration list for PBXNativeTarget "TG-ObjC" */;
+			buildPhases = (
+				536AC21D224390CF00DECE05 /* Headers */,
+				536AC21E224390CF00DECE05 /* Sources */,
+				536AC21F224390CF00DECE05 /* Frameworks */,
+				536AC220224390CF00DECE05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TG-ObjC";
+			productName = "TG-ObjC";
+			productReference = 536AC222224390CF00DECE05 /* TG_ObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		536AC1E02243901A00DECE05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = toad;
+				TargetAttributes = {
+					536AC221224390CF00DECE05 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 536AC1E32243901A00DECE05 /* Build configuration list for PBXProject "TG-ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 536AC1DF2243901A00DECE05;
+			productRefGroup = 536AC1E92243901A00DECE05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				536AC221224390CF00DECE05 /* TG-ObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		536AC220224390CF00DECE05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		536AC21E224390CF00DECE05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				536AC31B224391C000DECE05 /* UITextField+TG.m in Sources */,
+				536AC32E224391C000DECE05 /* UIResponder+TG.m in Sources */,
+				536AC32D224391C000DECE05 /* TGColor.m in Sources */,
+				536AC308224391C000DECE05 /* TGTabBarController.m in Sources */,
+				536AC306224391C000DECE05 /* UITableViewController+TG.m in Sources */,
+				536AC332224391C000DECE05 /* TGNavigationController.m in Sources */,
+				536AC328224391C000DECE05 /* TGCheckBox.m in Sources */,
+				536AC331224391C000DECE05 /* TGResponder.m in Sources */,
+				536AC307224391C000DECE05 /* TGTableViewController.m in Sources */,
+				536AC335224391C000DECE05 /* TGTabBar.m in Sources */,
+				536AC275224391BA00DECE05 /* TGData.m in Sources */,
+				536AC26B224391BA00DECE05 /* NSString+TGExtension.m in Sources */,
+				536AC2FF224391C000DECE05 /* UIImageView+TG.m in Sources */,
+				536AC281224391BA00DECE05 /* TGDictionary.m in Sources */,
+				536AC26A224391BA00DECE05 /* NSString+TGEncrypt.m in Sources */,
+				536AC310224391C000DECE05 /* UIButton+TG.m in Sources */,
+				536AC338224391C000DECE05 /* UIDevice+TG.m in Sources */,
+				536AC31F224391C000DECE05 /* TGScrollView.m in Sources */,
+				536AC323224391C000DECE05 /* TGImage.m in Sources */,
+				536AC26F224391BA00DECE05 /* NSObject+TG.m in Sources */,
+				536AC33D224391C000DECE05 /* UIApplication+TG.m in Sources */,
+				536AC282224391BA00DECE05 /* TGLib.m in Sources */,
+				536AC27B224391BA00DECE05 /* TGTimer.m in Sources */,
+				536AC31C224391C000DECE05 /* TGTextField.m in Sources */,
+				536AC342224391C000DECE05 /* UIView+TG.m in Sources */,
+				536AC272224391BA00DECE05 /* TGObject.m in Sources */,
+				536AC346224391C000DECE05 /* TGAppCenter.m in Sources */,
+				536AC283224391BA00DECE05 /* TGHttp.m in Sources */,
+				536AC26C224391BA00DECE05 /* NSString+TGRegex.m in Sources */,
+				536AC26D224391BA00DECE05 /* TGString.m in Sources */,
+				536AC302224391C000DECE05 /* TGTableView.m in Sources */,
+				536AC27A224391BA00DECE05 /* NSTimer+TG.m in Sources */,
+				536AC313224391C000DECE05 /* TGButton.m in Sources */,
+				536AC31E224391C000DECE05 /* UIScrollView+TG.m in Sources */,
+				536AC32B224391C000DECE05 /* UIColor+TG.m in Sources */,
+				536AC33C224391C000DECE05 /* TGViewController.m in Sources */,
+				536AC300224391C000DECE05 /* TGImageVIew.m in Sources */,
+				536AC317224391C000DECE05 /* TGAlertController.m in Sources */,
+				536AC321224391C000DECE05 /* TGTableViewCell.m in Sources */,
+				536AC315224391C000DECE05 /* UIAlertController+TG.m in Sources */,
+				536AC33A224391C000DECE05 /* UIViewController+TG.m in Sources */,
+				536AC33F224391C000DECE05 /* TGNavigationBar.m in Sources */,
+				536AC276224391BA00DECE05 /* NSData+TG.m in Sources */,
+				536AC325224391C000DECE05 /* UIimage+TG.m in Sources */,
+				536AC280224391BA00DECE05 /* NSDictionary+TG.m in Sources */,
+				536AC343224391C000DECE05 /* TGView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		536AC2122243901C00DECE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		536AC2132243901C00DECE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		536AC234224390CF00DECE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TG-ObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.TG-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		536AC235224390CF00DECE05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 252LTQPWBD;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "TG-ObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aa.TG-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		536AC1E32243901A00DECE05 /* Build configuration list for PBXProject "TG-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536AC2122243901C00DECE05 /* Debug */,
+				536AC2132243901C00DECE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536AC233224390CF00DECE05 /* Build configuration list for PBXNativeTarget "TG-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				536AC234224390CF00DECE05 /* Debug */,
+				536AC235224390CF00DECE05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 536AC1E02243901A00DECE05 /* Project object */;
+}
