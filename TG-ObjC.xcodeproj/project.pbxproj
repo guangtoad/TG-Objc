@@ -400,7 +400,6 @@
 				536AC2B5224391C000DECE05 /* TGTextField */,
 				536AC2BB224391C000DECE05 /* TGScrollView */,
 				536AC2C1224391C000DECE05 /* TGTableViewCell */,
-				536AC2C4224391C000DECE05 /* UIDevice */,
 				536AC2C5224391C000DECE05 /* TGImage */,
 				536AC2CB224391C000DECE05 /* TGCheckBox */,
 				536AC2CE224391C000DECE05 /* TGUIKit.h */,
@@ -558,13 +557,6 @@
 				536AC2C3224391C000DECE05 /* TGTableViewCell.h */,
 			);
 			path = TGTableViewCell;
-			sourceTree = "<group>";
-		};
-		536AC2C4224391C000DECE05 /* UIDevice */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIDevice;
 			sourceTree = "<group>";
 		};
 		536AC2C5224391C000DECE05 /* TGImage */ = {
