@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'TG-ObjC'
-  s.version = '0.0.1'
+  s.version = '0.1.0'
 
   #s.osx.deployment_target = '13.1'
   s.ios.deployment_target = '9.0'
