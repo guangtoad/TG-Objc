@@ -38,7 +38,7 @@
     }
 }
 - (instancetype) initWithDictionary:(NSDictionary *)dic{
-    if (self = [super init]) {
+    if (self = [self init]) {
         
     }
     return self;

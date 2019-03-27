@@ -28,7 +28,7 @@
  @return 解密后
  */
 - (NSString *) decBase64;
-//+ (NSString *)getBase64String:(NSString *)strSource;
+
 @end
 
 /**

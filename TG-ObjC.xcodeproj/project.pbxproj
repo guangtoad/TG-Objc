@@ -282,8 +282,8 @@
 		536AC23B224391B900DECE05 /* TGString */ = {
 			isa = PBXGroup;
 			children = (
-				536AC23C224391B900DECE05 /* TGString.h */,
 				536AC23D224391B900DECE05 /* Extension */,
+				536AC23C224391B900DECE05 /* TGString.h */,
 				536AC244224391B900DECE05 /* TGString.m */,
 			);
 			path = TGString;
@@ -292,11 +292,11 @@
 		536AC23D224391B900DECE05 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				536AC23E224391B900DECE05 /* NSString+TGExtension.h */,
 				536AC23F224391B900DECE05 /* NSString+TGEncrypt.h */,
-				536AC240224391B900DECE05 /* NSString+TGRegex.h */,
 				536AC241224391B900DECE05 /* NSString+TGEncrypt.m */,
+				536AC23E224391B900DECE05 /* NSString+TGExtension.h */,
 				536AC242224391B900DECE05 /* NSString+TGExtension.m */,
+				536AC240224391B900DECE05 /* NSString+TGRegex.h */,
 				536AC243224391B900DECE05 /* NSString+TGRegex.m */,
 			);
 			path = Extension;
